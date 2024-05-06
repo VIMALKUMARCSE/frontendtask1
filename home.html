@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .search_bar {
+            position: relative;
+            right: 2px;
+            bottom: 18px;
+        }
+
+        #search {
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 3px;
+        }
+
+        .subscribe {
+            padding-left: 215px;
+            padding-top: 30px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent-div">
+        <div class="header1">
+            <header>
+                <img src="YouTube-Logo.wine.svg" alt="Youtube" height="50px" width="130px" />
+                <label class="search_bar" for="Searchbar"></label>
+                <input class="search_bar" type="search" id="search" placeholder="Search here..."
+                    name="Youtube search" />
+                <button class="search_bar" type="submit" id="search" name="search">
+                    Search
+                </button>
+            </header>
+        </div>
+        <div class="video">
+            <h3>Star Movie Trailer</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5QlTZEogGrE?si=tO3fcXWbmhz04z0E"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="form.html" target="_blank">
+            <div class="subscribe">
+                <button type="submit" id="Submit" style="
+              border: 3px solid black;
+              padding: 10px;
+              border-radius: 20px;
+              background-color: whitesmoke;
+              font-weight: bold;
+              font-size: 15px;
+            ">
+                    Subscribe
+                </button>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>
